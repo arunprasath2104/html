@@ -1,0 +1,11 @@
+p {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 30px;
+}
+
+p:hover {
+    background-color: aqua;
+    transform: scale(0.8);
+    transition: 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
